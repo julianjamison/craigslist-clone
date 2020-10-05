@@ -3,7 +3,7 @@
   "version": "4.0.2",
   "description": "",
   "main": "index.js",
-  "homepage": "http://julianjamsion.github.io/craigslist-clone",
+  "homepage": "https://julianjamsion.github.io/craigslist-clone",
   "scripts": {
     "test": "jest",
     "build": "gulp build",
@@ -15,7 +15,7 @@
     "static:build": "gulp static-build",
     "imgs": "gulp imagemin",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
